@@ -8,7 +8,7 @@ class Solution14{
 			String str = s.substring(i, i+1);
 
 			System.out.printf("cnt : %d , %s\n", cnt, str);
-			if(str.equals(" ")) {
+			if(str.equals(" ")) { //왜 equals만 되는지 str == " "은 안되는지?
 				cnt = 0;
 				answer += str;
 				continue;
